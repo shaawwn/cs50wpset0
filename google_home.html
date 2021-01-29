@@ -19,8 +19,9 @@
             <a href="google_images.html" style="position: absolute; align-self: flex-end; top:0px; margin: 10px;">Image Search</a>
             <a href="google_advanced.html" style="position: absolute; align-self: flex-end; top:10px; right: 110px;">Advanced Search</a>
             <form class="search-form" action="https://www.google.com/search" method="get">
+                <!-- <input name="sxsrf" value="ALeKk03mCz8ytWmVnU7UytbTpjvIEoebRw:1611953746429" type="hidden"> Don't think I need this, but keeping just in case-->
+                <input type="hidden" value="AINFCbYAAAAAYBSIxC_5wjU4uG_U6AEHj1SYYMADFu0A" name="iflsig"> <!--Doesn't work without using value="", but that value changes regularly?-->
                 <input type="text" class="searchbar" name="q">
-                <!-- <input type="hidden" name="iflsig"> -->
                 <div class="search-button">
                     <input type="submit" class="button" value="Search" name="btnK">
                     <input type="submit" class="button" value="I'm Feeling Lucky"  name="btnI"> <!--Cats for now-->
